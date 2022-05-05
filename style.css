@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #b48f63;
+}
+.body{
+  max-width: 1100px ;
+  margin : auto;
+  font-family: arial;
+}
+.aside{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  float: left;
+  padding: 10px
+}
+.profile{
+  overflow: hidden;
+}
+.profileImg{
+  width: 100px;
+  margin: 0 auto;
+}
+.profileImg img{
+  width: 100%;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+.content{
+  float: left;
+  height: 100vh;
+  width: 100%
+}
+.pages{
+  padding: 10px;
+  overflow: hidden;
+}
+.menus{
+  background: #05162c
+}
+.title i{
+  color: #b48f63;
+}
+.menu{
+  display: inline;
+}
+.menu a{
+  text-decoration: none;
+  color: #b48f63;
+  padding: 5px 10px;
+  display: inline-block;
+  background: #05162c;
+  border: 1px solid;
+  margin: 5px;
+  font-size: 9px;
+}
+.menu a:hover{
+  color: #333;
+  background: #ddd;
+  transition: .5s;
+}
+.moreInfo{
+  background: #05162c;
+  margin: 2px 0px;
+  padding: 5px;
+  font-size: 11px;
+  cursor: pointer;
+  color: #b48f63;
+}
+.moreInfo i{
+  float: left;
+  padding: 1px 5px
+}
+.moreInfo:hover{
+  background: #ddd;
+  transition: .5s;
+}
+.title{
+  background: #05162c;padding: 5px;
+  margin: 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+.title h1{
+  float: left;
+  color: #b48f63;
+}
+.title i{
+  float: right;padding: 3px 0;
+}
+.portfolioBox{
+  width: 200px;
+  overflow: hidden;
+  padding: 5px;
+  border: 1px solid #ddd;
+  float: left;
+  margin: 5px;
+}
+.portfolioBox img{
+  width: 100%;
+  height: 100px
+}
+.portfolioBox a{
+  text-decoration: none;
+}

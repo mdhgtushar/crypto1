@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CRYPTO INVESTMENT INC.</title>
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <style media="screen">
+
+  </style>
+  <body>
+    <section class="body">
+      <aside class="aside">
+        <div class="profile">
+          <div class="profileImg">
+            <img src="logo.jpg" alt="">
+          </div>
+          <div class="profileInfo">
+            <h1>CRYPTO INVESTMENT INC.</h1>
+            <p>@Ghiisen<a href="https://t.me/+9yXf_YkgM0JmMmQ0">-</a></p>
+            <div class="social">
+              <i class="fa fa-rss" aria-hidden="true"></i>
+              <i class="fa fa-github" aria-hidden="true"></i>
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+            <hr>
+            <div class="moreInfo">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <p>Amelie, Bangladesh</p>
+            </div>
+            <div class="moreInfo">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+              <p>mdhgtushar@gmail.com</p>
+            </div>
+            <div class="moreInfo">
+            <i class="fa fa-phone-square" aria-hidden="true"></i>
+              <p>+8801302855453</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <section class="content">
+          <div class="menus">
+            <div class="menu" onclick="aboutOpen()">
+              <a href="#about">About: CRYPTO INVESTMENT INC.</a>
+            </div>
+              <div class="menu" onclick="portfolioOpen()">
+                <a href="#portfolio">Testemonials</a>
+              </div>
+              <div class="menu" onclick="contactOpen()">
+                <a href="#contactme">Contact & Social Links</a>
+              </div>
+          </div>
+          <div class="title" id="about" onclick="aboutOpen()">
+            <h1 style="float:left">About: CRYPTO INVESTMENT INC.</h1>
+            <i style="float:right" class="fa fa-arrow-down" aria-hidden="true"></i>
+          </div>
+        <div class="pages" id="aboutPage" style="display:none">
+        <div class="aboutMe" >
+          <h1>Hi, Welcome to CRYPTO INVESTMENT INC.</h1>
+          <p>CRYPTO INVESTMENT INC. is a INVESTMENT platform</p>
+          <p>and more about it</p>
+        </div>
+      </div>
+      <div class="title" id="portfolio" onclick="portfolioOpen()">
+        <h1>Testemonials</h1>
+        <i style="float:right" class="fa fa-arrow-down" aria-hidden="true"></i>
+      </div>
+      <div class="pages" id="portfolioPage" style="display:none">
+        <div class="portfolio">
+          <!-- <div class="portfolioBox">
+            <img src="https://zonayed.me/static/devsonket-7c7b56622758f9a393f2787368987d56.jpg" alt="">
+            <br>
+            <h3>Title will be Dev shonket</h3>
+            <p>Description will be here</p>
+            <br>
+              <a href="#">Read More</a> ||
+              <a href="#">Live view</a>
+          </div> -->
+          <p>Not any Testemonial added</p>
+        </div>
+      </div>
+      <div class="title" id="contactme" onclick="contactOpen()">
+        <h1>Contact & Social Links</h1>
+        <i style="float:right" class="fa fa-arrow-down" aria-hidden="true"></i>
+      </div>
+      <div class="pages" id="contactmePage" style="display:none">
+        <p>if you are intersted to invest. please contact us</p>
+        <hr>
+        
+        <div class="moreInfo">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <p>Facebook</p>
+        </div>
+        <div class="moreInfo">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+          <p>Twitter</p>
+        </div>
+        <div class="moreInfo">
+        <i class="fa fa-phone-square" aria-hidden="true"></i>
+          <p>Telegram</p>
+        </div>
+        <br>
+        <h3>mdhgtushar@gmail.com</h3>
+        <p>content me via email</p>
+      </div>
+      </section>
+    </section>
+    <script type="text/javascript">
+      var aboutPage = document.getElementById('aboutPage');
+          var contactmePage = document.getElementById('contactmePage');
+            var portfolioPage = document.getElementById('portfolioPage');
+      function aboutOpen(){
+        console.log(  aboutPage.style.display)
+        if(aboutPage.style.display == "none"){
+          aboutPage.style.display = "block";
+            portfolioPage.style.display = "none";
+              contactmePage.style.display = "none";
+        }else{
+          aboutPage.style.display = "none";
+        }
+      }
+      function portfolioOpen(){
+        console.log(  portfolioPage.style.display)
+        if(portfolioPage.style.display == "none"){
+          portfolioPage.style.display = "block";
+            contactmePage.style.display = "none";
+              aboutPage.style.display = "none";
+        }else{
+          portfolioPage.style.display = "none";
+        }
+      }
+        function contactOpen(){
+          console.log(  contactmePage.style.display)
+          if(contactmePage.style.display == "none"){
+            contactmePage.style.display = "block";
+              aboutPage.style.display = "none";
+                portfolioPage.style.display = "none";
+          }else{
+            contactmePage.style.display = "none";
+          }
+        }
+    </script>
+  </body>
+</html>
